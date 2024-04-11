@@ -361,14 +361,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 30px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+  flex-wrap: wrap; /* Añadido */
+  justify-content: center; /* Añadido */
 }
+
 .project .nav.nav-pills .nav-item {
-  width: 33.33333%;
+  width: 18%; /* Ajustado */
+  text-align: center; /* Añadido */
+  flex-grow: 1; /* Añadido */
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -408,8 +413,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 .nav-link#projects-tabs-tab-third {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link#projects-tabs-tab-fourth {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-link#projects-tabs-tab-fifth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }

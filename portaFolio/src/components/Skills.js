@@ -51,58 +51,72 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Base de datos no relacional" />
                                 <h5>Base de datos no relacional</h5>
+                                <h9>Optimización y diseño de esquemas para bases de datos no relacionales como MongoDB y Firebase.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="C++" />
-                                <h5>C++</h5>
+                                <h5>C++ </h5>
+                                <h9>Desarrollo de aplicaciones y sistemas con enfoque en rendimiento y algoritmos.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="CSS" />
                                 <h5>CSS</h5>
+                                <h9>Diseño y estilización de sitios web para diferentes dispositivos y navegadores.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter4} alt="Hacking WIFI" />
                                 <h5>Hacking WIFI</h5>
+                                <h9>Conocimientos avanzados en seguridad WiFi y técnicas de penetración.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter14} alt="Hacking WEB" />
                                 <h5>Hacking WEB</h5>
+                                <h9>Pentesting web y análisis de vulnerabilidades con herramientas avanzadas.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter10} alt="Resolución de máquinas virtuales para Pentesting" />
                                 <h5>Resolución de máquinas virtuales para Pentesting</h5>
+                                <h9>Configuración y solución de máquinas virtuales para pruebas de pentesting con VirtualBox y VMware.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter5} alt="HTML" />
-                                <h5>HTML</h5>
+                                <h5>Html</h5>
+                                <h9>Desarrollo de estructuras y contenido web para sitios dinámicos y optimizados.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter6} alt="Java" />
                                 <h5>Java</h5>
+                                <h9>Desarrollo de aplicaciones empresariales y backend robustas y escalables.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter7} alt="JavaScript" />
                                 <h5>JavaScript</h5>
+                                <h9>Programación de funcionalidades interactivas y dinámicas en sitios web.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter8} alt="Kotlin" />
                                 <h5>Kotlin</h5>
+                                <h9>Desarrollo de aplicaciones móviles innovadoras para Android.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter9} alt="Matlab" />
                                 <h5>Matlab</h5>
+                                <h9>Análisis numérico, modelado y simulación para resolver problemas complejos en ingeniería.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter11} alt="Python" />
                                 <h5>Python</h5>
+                                <h9>Automatización de tareas y desarrollo de aplicaciones eficientes con Django y Flask.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter12} alt="React" />
                                 <h5>React</h5>
+                                <h9>Desarrollo de interfaces de usuario interactivas y eficientes con tecnologías modernas.</h9>
                             </div>
                             <div className="item">
                                 <img src={meter13} alt="Unity 2D" />
-                                <h5>Unity 2D</h5>
+                                <h5>Unity 2D y Realidad Aumentada</h5>
+                                <h9>Desarrollo de videojuegos 2D y simulaciones interactivas con Unity.</h9>
                             </div>
                         </Carousel>
                     </div>

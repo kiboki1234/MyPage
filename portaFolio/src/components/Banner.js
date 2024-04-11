@@ -7,8 +7,8 @@ export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
-    const period = 2000;
-    const toRotate = ["Desarrollador junior", "Programador"];
+    const period = 1000;
+    const toRotate = ["Desarrollador junior", "Programador","Pentester junior"];
     const [delta, setDelta] = useState(300 - Math.random() * 100);
 
     useEffect(() => {
@@ -39,11 +39,16 @@ export const Banner = () => {
     return (
         <section className="banner" id="home">
             <Container>
-                <Row className="aling-item-center">
-                    <Col xs={12} md={6} xl={7}>
+                <Row >
+                    <Col xs={12} md={6} xl={7} className="text-center">
                         <span className="tagline">Bienvenido a mi Portafolio</span>
-                        <h1>{'Hola soy Andres Espin'}<span className="wrap">{text}</span></h1>
-                        <p>Mas texto de presentacion aqui</p>
+                        <h1>{'Hola, soy Andres Es '}<span className="wrap">{text}</span></h1>
+                        <p>
+                            Soy un apasio nado desarrollador junior con experiencia en diversas tecnologías y lenguajes de programación. 
+                            Mi objetivo es crear soluciones innovadoras y eficientes que impulsen el éxito de los proyectos en los que trabajo. 
+                            Con una sólida formación académica y habilidades técnicas, estoy listo para enfrentar nuevos desafíos y aprender 
+                            constantemente para mejorar mis habilidades y contribuir al crecimiento de cualquier equipo.
+                        </p>
                         <button onClick={() => console.log('connect')}>Let's connect</button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
@@ -53,4 +58,5 @@ export const Banner = () => {
             </Container>
         </section>
     );
+    
 }
